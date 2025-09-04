@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Home and Kitchen - Landing Page</title>
+  </head>
+  <body>
+    <header>
+      <h2 class="heading">Home and Kitchen</h2>
+      <!-- hamburger icon -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <i class="fas fa-bars"></i>
+      </label>
+      <!-- Nav Bar -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section id="about" class="section-about">
+        <div class="about-content">
+          <img src="images/about-img.png" alt="" class="about-img" />
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            facilis sequi sint fugiat quae enim animi, minus facere ab delectus,
+            ipsam iusto inventore suscipit doloribus numquam rem neque
+            voluptatem tempora nobis aspernatur. Doloribus, commodi.
+            Voluptatibus laboriosam possimus distinctio culpa temporibus
+            similique sit aperiam. Omnis saepe tenetur expedita. Impedit odio
+            praesentium nulla dolore porro amet ex excepturi quidem? Facere,
+            illo eaque?
+          </p>
+          <button class="about-btn">
+            Read More <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+
+      <!-- Features Section-->
+      <section id="features" class="section-feature">
+        <h2 class="features-title">Features</h2>
+        <div class="features">
+
+            <!-- Card 1 -->
+          <div class="features-card">
+            <h3 class="card-title">Premium Quality Materials</h3>
+            <p class="card-para">
+              Our products are crafted with durable, eco-friendly materials.
+              They are designed to last longer and withstand daily use. Every
+              item passes strict quality checks before reaching you. Enjoy both
+              elegance and reliability in your home.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="features-card">
+            <h3 class="card-title">Modern & Stylish Designs</h3>
+            <p class="card-para">
+              We blend functionality with aesthetic appeal. Our designs
+              complement both classic and contemporary interiors. Choose from a
+              wide range of furniture, cookware, and appliances. Make your home
+              not just comfortable, but truly beautiful.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="features-card">
+            <h3 class="card-title">Convenience & Easy Maintenance</h3>
+            <p class="card-para">
+              Products are designed for hassle-free cleaning and upkeep.
+              Lightweight, modular designs make movement effortless. Appliances
+              include user-friendly features for smart living. Spend less time
+              maintaining and more time enjoying.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="features-card">
+            <h3 class="card-title">Affordable Prices with Value</h3>
+            <p class="card-para">
+              We believe great homes shouldn’t cost a fortune. Enjoy premium
+              quality at competitive prices. Seasonal offers and bundle deals
+              maximize your savings. Get more style and function for less.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="section-products">
+        <h2 class="products-title">Our Products</h2>
+        <div class="products">
+          <!-- Card 1 -->
+          <div class="product-card">
+            <img
+              src="images/fryingpan-img.png"
+              alt="Black non-stick frying pan on wooden board"
+              class="product-image"
+            />
+            <div class="card-body">
+              <h2 class="product-title">Non-Stick Frying Pan</h2>
+              <p class="product-desc">
+                Durable non-stick surface for effortless cooking and easy
+                cleanup. Oven-safe up to 180°C.
+              </p>
+              <button class="order-btn">Place Order</button>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="product-card">
+            <img
+              src="images/glassjar-img.png"
+              alt="Airtight glass jar filled with pasta"
+              class="product-image"
+            />
+            <div class="card-body">
+              <h2 class="product-title">Airtight Glass Storage Jar</h2>
+              <p class="product-desc">
+                Keep grains and pasta fresh with an airtight seal-clear glass
+                for an elegant pantry display.
+              </p>
+              <button class="order-btn">Place Order</button>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="product-card">
+            <img
+              src="images/cuttingboard-img.png"
+              alt="Wooden cutting board on countertop"
+              class="product-image"
+            />
+            <div class="card-body">
+              <h2 class="product-title">Multi-Use Cutting Board</h2>
+              <p class="product-desc">
+                Natural wood construction that doubles as a serving
+                platter-gentle on knives and beautiful on table.
+              </p>
+              <button class="order-btn">Place Order</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+      <section id="testimonial-contact">
+        <div id="testimonial" class="section-testimonial">
+          <h2 class="testimonial-title">Testimonial</h2>
+          <div class="testimonial-card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            saepe quaerat repudiandae velit sunt harum assumenda sit laboriosam
+            obcaecati minima!
+            <p><strong>- Customer 1</strong></p>
+          </div>
+          <div class="testimonial-card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            deserunt maiores doloremque provident accusantium nemo
+            exercitationem expedita libero sapiente delectus.
+            <p><strong>- Customer 2</strong></p>
+          </div>
+          <div class="testimonial-card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+            aliquam porro iusto enim nemo cumque quas aut at incidunt ut.
+            <p><strong>- Customer 3</strong></p>
+          </div>
+        </div>
+        <!---Contact Section--->
+        <div id="contact" class="section-contact">
+          <h2 class="contact-title">Contact</h2>
+          <form class="contact-form">
+            <fieldset>
+              <legend>Name</legend>
+              <input type="text" placeholder="Your Name" required />
+            </fieldset>
+
+            <fieldset>
+              <legend>Email</legend>
+              <input type="email" placeholder="Your Email" required />
+            </fieldset>
+
+            <fieldset>
+              <legend>Mobile</legend>
+              <input type="text" placeholder="Your Mobile" required />
+            </fieldset>
+
+            <fieldset>
+              <legend>Message</legend>
+              <textarea
+                rows="5"
+                cols="15"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </fieldset>
+
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer-sec">
+        <p>&copy; 2025 Home and Kitchen</p>
+      </div>
+
+      <div class="icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-google"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
