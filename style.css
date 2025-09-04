@@ -343,6 +343,10 @@ textarea {
     grid-template-columns: 1fr;
   }
 
+  .product-image{
+    max-width: 90%;
+  }
+
   #testimonial-contact {
     flex-direction: column;
   }
@@ -380,6 +384,10 @@ textarea {
   }
 
   .about-img {
+    max-width: 90%;
+  }
+
+  .product-image{
     max-width: 90%;
   }
 
