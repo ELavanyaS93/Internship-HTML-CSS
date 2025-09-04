@@ -193,20 +193,30 @@
         <!---Contact Section--->
         <div id="contact" class="section-contact">
           <h2 class="contact-title">Contact</h2>
-          <form class="contact-form">
+          <!-- Netlify Form -->
+  <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+    
+    <!-- Hidden input for Netlify form recognition -->
+    <input type="hidden" name="form-name" value="contact">
+    
+    <!-- Honeypot field (hidden from real users, helps block spam bots) -->
+    <p style="display:none">
+      <label>Don't fill this out if you're human: <input name="bot-field"></label>
+    </p>
+
             <fieldset>
               <legend>Name</legend>
-              <input type="text" placeholder="Your Name" required />
+              <input type="text" placeholder="Your Name" required>
             </fieldset>
 
             <fieldset>
               <legend>Email</legend>
-              <input type="email" placeholder="Your Email" required />
+              <input type="email" placeholder="Your Email" required>
             </fieldset>
 
             <fieldset>
               <legend>Mobile</legend>
-              <input type="text" placeholder="Your Mobile" required />
+              <input type="text" placeholder="Your Mobile" required >
             </fieldset>
 
             <fieldset>
